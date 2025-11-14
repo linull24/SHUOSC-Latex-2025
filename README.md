@@ -1,6 +1,6 @@
-# SHU-Beamer-Theme
+# SHU LaTex 2025
 
-模版主题预览：[SHU-Beamer-Theme](https://lanegong.github.io/file/slide.pdf)
+内容为SHU LaTex 2025活动的讲稿。
 
 ## 说明
 
@@ -11,7 +11,7 @@
    - [[LaTeX]beamer主题](http://arch-blog.kidozh.com/2015/12/22/latexbeamer-e4-b8-bb-e9-a2-98/)
    - [LaTeX | Beamer幻灯片](https://shootingwang.github.io/LaTeX-Beamer.html)
    - [Beamer](https://www.overleaf.com/learn/latex/Beamer#Introduction)
-
+   - [SHU-Beamer-theme](https://github.com/LaneGong/SHU-Beamer-Theme)
 如果有 bug 或者 feature request 欢迎提 issue or pr
 
 ## License
