@@ -18,10 +18,10 @@
 \item 简单命令
   \begin{itemize}
     \item \verb|\命令|\hspace{2em}
-    \verb|{\songti 中国人民解放军}| ~$\Rightarrow$ {\songti 中国人民解放军}
+    \verb|{\songti 中国人民解放军}| ~$\Rightarrow$ {中国人民解放军}
   \item \verb|\命令[可选参数]{必选参数}|\\
 \verb|\section[精简标题]{这个题目实在太长了放到目录里面不太好看}|\\
-$\Rightarrow$ {\heiti 1.1 \hspace{1em} \songti 这个题目实在太长了放到目录里面不太好看}
+$\Rightarrow$ {1.1 \hspace{1em} 这个题目实在太长了放到目录里面不太好看}
   \end{itemize}
 \item 环境
   \begin{columns}[c]
@@ -68,8 +68,8 @@ $ a^2-b^2=(a+b)(a-b)$
 \end{frame}
 %
 \begin{frame}{\LaTeX{}命令举例}
-\cmd{chapter}{前言}{{\heiti 第 1 章\hspace{1em} 前言}} \\
-\cmd{section[精简标题]}{这个题目实在太长了放到目录里面不太好看}{{\heiti 1.1
+\cmd{chapter}{前言}{{第 1 章\hspace{1em} 前言}} \\
+\cmd{section[精简标题]}{这个题目实在太长了放到目录里面不太好看}{{1.1
   \hspace{1em} 这个题目实在太长了放到目录里面不太好看}} \\
 \cmd{footnote}{脚注}{何意味?\footnote{我是可爱的脚注}}
 \end{frame}
@@ -245,22 +245,22 @@ V = \frac{4}{3}\pi r^3
       \end{itemize}
     \bigskip
     
-      \begin{minipage}{0.7\linewidth}
+      \begin{minipage}{0.6\linewidth}
         \begin{lstlisting}
-    SHUOSC徽请参见图~\ref{fig:lib}
+    SHUOSC logo请参见图~\ref{fig:lib}
     \begin{figure}[htbp]
       \centering
       \includegraphics[height=.2\textheight]%
       {pic/shuosc.png}
-      \caption{SHUOSC徽章}
+      \caption{SHUOSC logo}
       \label{fig:lib}
     \end{figure}
     \end{lstlisting}
       \end{minipage}\hfill
       \begin{minipage}{0.3\linewidth}\centering
-        {\songti SHUOSC徽章请参见图~1。}\\[1em]
+        {SHUOSC logo请参见图~1}\\[1em]
      \includegraphics[height=0.2\textheight]{pic/shuosc.png}\\
-     {\footnotesize\heiti 图~1. SHUOSC徽章。}
+     {\footnotesize 图~1. SHUOSC logo}
       \end{minipage}
     \end{frame}
 \begin{frame}[fragile]{交叉引用与插入表格}

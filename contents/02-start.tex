@@ -65,15 +65,20 @@
             Debian/Ubuntu系                                         & texlive-full        \\
             RHEL系                                                  & texlive-scheme-full \\
             SUSE系                                                  & texlive-scheme-full \\
-            Arch系\footnote{Arch系Distro以拆包少著称，但是texlive也拆了\includegraphics[width=0.03\linewidth]{pic/image.png}} & texlive-most        \\
+            Arch系\footnote{Arch系Distro以拆包少著称，但是texlive也拆了\includegraphics[width=0.03\linewidth]{pic/image.png}} & texlive-meta包\&texlive-lang包        \\
             \hline
           \end{tabular}
   \end{itemize}
 \end{frame}
 \begin{frame}{Installation on GNU/Linux}
-  ちょっと待って！
+  关于GNU/Linux的一些好处....
   \begin{itemize}
-    \item 如果您是GNU/Linux用户，可能没有太多必要\dots \includegraphics[width=0.03\linewidth]{pic/image.png}
-    \item 此外我们强烈建议您加入SHUOSC
+    \item \TeX 的支持更加原生，性能更强
+    \item 一行命令完成编程环境的部署
+    \item apt-get update / paru -Syyu 即可完成系统的全量更新
+    \item 通过post-install的fork机制，自动完成环境变量配置、系统服务配置
+    \item 干净地安装软件，干净地卸载软件
+    \item 可靠的软件来源，妥善使用不会出现系统依赖问题
+    \item 声明式配置，清楚地自己掌握自己的系统
   \end{itemize}
 \end{frame}
