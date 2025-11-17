@@ -4,7 +4,7 @@
 
 ## 说明
 
-1. 本模版是从[清华Beamer模版](https://github.com/Trinkle23897/THU-Beamer-Theme)修改而来
+1. 本模版是最初从[清华Beamer模版](https://github.com/Trinkle23897/THU-Beamer-Theme)修改而来，在[SHU-Beamer-theme](https://github.com/LaneGong/SHU-Beamer-Theme)基础上修改，添加了可选的SHUOSClogo和可选的SHU或者Cirno的水印。
 
 2. 模版的修改和使用参考了以下资料：
    - [分享一个清华主题的beamer模版](https://www.latexstudio.net/archives/4051.html)
